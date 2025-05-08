@@ -12,6 +12,9 @@ $> git clone https://github.com/IdCom4/project-chess-front
 # and fill all the required values
 $> cp ./envs/.env.exemple ./envs/.env.development.local
 
+# install the packages
+$> pnpm i
+
 # start the application
 $> pnpm run start:dev
 ```
@@ -37,7 +40,7 @@ Use its documentation as reference to better understand/update the project's cod
 
 ## Usage
 
-Read the \***\*package.json\*\*** for the exhaustive list of commands, but here are the main ones
+Read the **package.json** for the exhaustive list of commands, but here are the main ones
 
 ### Start the application
 
